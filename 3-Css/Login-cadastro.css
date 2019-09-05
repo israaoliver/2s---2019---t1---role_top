@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+html{
+    height: 100%;
+}
+body{
+    width: 100%;
+    background-color: #111111;
+    background-image: linear-gradient(#4e015b,#44014f,#1e0023,#000000);
+    text-align: center;
+  
+  }
+  section{
+      align-self: center;
+  }
+  
+
+ .flex{
+    display: flex;
+}
+form * {
+    margin: 5px 0;
+    text-align: left;
+    overflow: hidden;
+}
+
+p {
+    color: #ffffff;
+    font-family: 'Limelight', cursive; 
+    font-size: 1.4em;
+}
+/*======================================================================================
+                             Nav
+======================================================================================*/
+.section-container{
+  margin: 0 auto;
+  max-width: 1500px;
+}
+
+nav{
+    background-image: linear-gradient(#4e015b,#1e0023,#000000);
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    height: 14%;
+  }
+ 
+
+  nav ul img.logo{
+    width: 180%;
+    margin-top: 1em;
+  
+  }
+  /*logo do usuario*/
+  nav ul img{
+    width: 50%;
+    
+  }
+  
+  nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;  
+    font-size: 1em;
+    font-family: 'Limelight', cursive;
+    align-items: flex-start;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: 1em;
+  }
+  nav ul > li{
+    width: 100%;
+    text-align: center;
+  }
+  nav ul > li > a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+  }
+  
+  nav ul > li > .sob:hover{
+    background-color: #fff;
+    color: #000;
+    border-radius: 15px;
+    box-shadow: 1px 5px black;
+  }
+  nav ul > li:last-child {
+    font-family: 'Carter One', cursive;
+    font-weight: bold;
+    padding: 0.2em;
+    margin-top: -1.5em;
+    
+    
+  }
+  nav ul li a > img:hover{
+    background-image: url('1-Icones/PNGs Prontos/login 2.png');
+    z-index: 1000;
+  }
+  /* Nav fim====================*/
+  /*==================================================================
+                            LOGIN
+  ====================================================================*/
+
+
+/*===============================================================
+                    MAIN
+ =============================================================*/
+ 
+ main{
+     width: 1000px;
+     height: 800px;
+     margin: 0 auto;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+
+
+
+
+  /*=====================================================
+                  RODAPÉ
+=======================================================*/
+footer{
+    background-image: linear-gradient(#44014f,#1e0023,#000);
+    width: 100%;
+    height: 50%;
+}
+.footer-container{
+    width: 100%;
+    height: 40%;
+  
+    justify-content: space-between;
+}
+.footer-logo{
+    width: 15%;
+}
+footer div img{
+    width: 15%;
+}
+  
+.social{
+    width: 20%;
+    flex-flow: column wrap;
+    justify-content: space-around;
+  
+}
+  
+  /*===================================================================================
+                            FIM DO RODAPÉ
+  ====================================================================================*/ 

@@ -1,0 +1,526 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 4fr;
+  background-color: #111111;
+  background-image: linear-gradient(#4e015b,#44014f,#1e0023,#000000);
+
+}
+
+@font-face{
+  font-family: 'cowboy';
+  src: url('../Fontes/BAYOC___.TTF');
+}
+section {
+    text-align: center;
+  }
+h1{
+  color: white;
+  font-size: 3.5em;
+  font-family: 'cowboy',sans-serif;
+  padding: 10px 0px;  
+  
+}    
+p {
+  color: #ffffff;
+  font-family: 'Itim', cursive; 
+  font-size: 1.4em;
+}
+.flex {
+  display: flex;
+}
+.section-container{
+  margin: 0 auto;
+  max-width: 1500px;
+}
+/*===Banner-area===*/
+#banner-area{
+  background-image: url('../2-Imagens/Imagens-de-salão-de=eventos/Salão/Principal.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 14em;
+  filter: contrast(110%) drop-shadow(0px 10px 21px #000);
+  
+}
+
+#banner-area div > h2{
+  font-family: 'cowboy',sans-serif;
+  font-size: 4em;
+  text-shadow: -5px -5px 0 #000,
+                    5px -5px 0 #000,
+                 -5px  5px 0 #000,
+                    5px  5px 0 #000;
+
+}
+.banner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+#banner-area.banner > div{
+  margin-top: 2em;
+}
+
+.banner div > h3{
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  color: #fff;
+  text-shadow: -2px -2px 0 #000,
+                    2px -2px 0 #000,
+                 -2px  2px 0 #000,
+                    2px  2px 0 #000;
+  
+}
+/*======================================================================================
+                             Nav
+======================================================================================*/
+nav{
+  background-image: linear-gradient(#4e015b,#1e0023,#000000);
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  height: 14%;
+}
+nav #bt-mobile-menu{
+  display: none;
+}
+nav ul img.logo{
+  width: 180%;
+  margin-top: 1em;
+
+}
+/*logo do usuario*/
+nav ul img{
+  width: 50%;
+  
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;  
+  font-size: 1em;
+  font-family: 'Limelight', cursive;
+  align-items: flex-start;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-top: 1em;
+}
+nav ul > li{
+  width: 100%;
+  text-align: center;
+}
+nav ul > li > a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 1em;
+}
+
+nav ul > li > .sob:hover{
+  background-color: #fff;
+  color: #000;
+  border-radius: 15px;
+  box-shadow: 1px 5px black;
+}
+nav ul > li:last-child {
+  font-family: 'Carter One', cursive;
+  font-weight: bold;
+  padding: 0.2em;
+  margin-top: -1.5em;
+  
+  
+}
+nav ul li a > img:hover{
+  background-image: url('1-Icones/PNGs Prontos/login 2.png')
+}
+/* Nav fim====================*/
+/*=============================================
+          Inicio Parte   de    Eventos
+==============================================*/
+
+.container-eve{
+  max-width: 1170px;
+  height: 1000px;
+  margin: 0 auto;
+  border: 1px solid white;
+  backdrop-filter: blur(100px);
+  background-color: rgba(220,220,220,0.2);
+  border-radius: 50px;
+  
+}
+.flex-wrap-central{
+  width: 1170px;
+  height: 800px;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.evento-container{
+  width: 300px;
+  height: 200px;
+  background-size: 300px;
+  font-size: 3em; 
+  border-radius: 30px;
+  border: 1px solid white;
+}
+
+.flex-wrap-central > div{
+  margin: 0.8em;
+  filter: grayscale(1);
+
+}
+.flex.flex-wrap-central > div:hover{
+
+  box-shadow: -3px 5px rgba(0, 0, 0, 0.3);
+  filter: grayscale(0);
+}
+
+.balada{
+  background-image: url(../2-Imagens/Imagens-de-salão-de=eventos/Eventos/Balada.jpg);
+}
+.aniversario{ 
+  background-image: url(../2-imagens/Imagens-de-salão-de=eventos/Eventos/Aniversario.jpg);
+  background-position: center;
+  font-size: 2.2em; 
+}
+.anos{  
+  background-image: url(../2-imagens/Imagens-de-salão-de=eventos/Eventos/15\ Anos.jpg);
+}
+.festas{
+  background-image: url(../2-imagens/Imagens-de-salão-de=eventos/Eventos/baladas-em-montevideu-la-city-boliche-uruguai.png);  
+}
+.cha{
+  background-image: url(../2-imagens/Imagens-de-salão-de=eventos/Eventos/Cha\ de\ bebe.jpg);  
+  font-size: 2em; 
+  }
+.formatura{
+  background-image: url(../2-imagens/Imagens-de-salão-de=eventos/Eventos/Formatura.jpg);  
+  font-size: 2.4em; 
+}
+.casamento{
+  background-image: url(../2-imagens/Imagens-de-salão-de=eventos/Eventos/Casamento.jpg);  
+  font-size: 2.4em;  
+}
+.confra{
+  background-image: url(../2-imagens/Imagens-de-salão-de=eventos/Eventos/Confraternização.jpg);
+  font-size: 2em;
+}
+h2{
+  color: #fff;
+  text-justify: center;
+  margin-top: 50px;
+}
+.margin-top{
+  margin-top: 60px;
+}
+
+/*=========================================================================
+                    Fim da parte de eventos
+==========================================================================*/
+
+/*==============================================================================================
+                      Inicio do Serviço
+===============================================================================================*/
+#servicos{
+  background-color: #000;
+}
+#servicos img{
+  height: 150px;
+  width:  150px;
+  align-self: baseline;
+  
+}
+#servicos > p {
+  text-align: left
+}
+.serv-container{
+  width: 900px;
+  height: 900px;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.serv-area{
+  
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/*==============================================================================================
+                      Inicio do Fim
+===============================================================================================*/
+/*==================================================================================
+                    INFRAESTRUTURA/GALERIA
+=================================================================================*/
+#Infraestrutura-Galeria{
+  background-color: #1e0023;
+  filter: contrast(100%) drop-shadow(0px 10px 21px #000);
+}
+#Infraestrutura-Galeria > p{
+  font-size: 1.5em;
+}
+.planta{
+  margin-bottom: 3em;
+}
+.container-inf{
+  max-width: 1100px;
+  height: 800px;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+
+}
+.flex.galeria{
+  width: 1100px;
+  height: 1000px;
+  flex-flow: row wrap;
+  
+  justify-content: space-around;
+
+}
+.flex.galeria div > img{
+  width: 15em;
+  height: 10em;
+  border-radius: 20px;
+  margin-bottom: 2em;
+  
+}
+.fotos{
+  align-items: center;
+}
+/*==============================================================================*/
+
+/*=================================================================================
+                      Orçamento
+==============================================================================*/
+#orçamento{
+  background-color: #7d0073;
+  width: 100%;
+  max-height: 1800px;
+  filter: contrast(100%) drop-shadow(0px 10px 21px #000);
+}
+#orçamento img{
+  width: 600px;
+  height: 30%;
+  margin-top: 2em;
+  border-radius: 50px;
+}
+#orçamento > p {
+  text-align: left;
+}
+.mento-container{
+  width: 900px;
+  height: 800px;
+  margin: 0 auto;
+  justify-content: center;  
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  
+}
+.plano{
+  width: 320px;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: rgba(220,220,220,0.2);
+}
+
+.flex.plano > h4{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif; 
+  font-size: 1.8em;
+}
+.flex.mento-container div > a > div{
+  padding: 0.4;
+  text-decoration: none; 
+  color: #fff; 
+  border: 1px solid white;
+  border-radius: 20px;
+}
+.flex.mento-container div > a{
+  text-decoration: none;
+  display: block;
+}
+.flex.mento-container div > a > div:hover{
+  background-color: #000;
+  color: #fff;
+  border: 1px solid white;
+  margin-top: -15px;
+}
+/*====================================================================================
+                                 Avaliações
+====================================================================================*/
+#Avaliações{
+  background-color: #5c2266;
+  filter: contrast(100%) drop-shadow(0px 10px 25px #000);
+}
+.ava-container{
+  width: 800px;
+  height: 1100px;
+  margin: 0 auto;
+  flex-flow: wrap;
+  justify-content: space-around;
+  border: 1px solid white;
+  margin-bottom: 5em;
+  border-radius: 50px;
+  background-color: rgba(220,220,220,0.2);
+}
+  .ava{
+ height: 200px;
+ width: 200px;
+ border-radius: 50%;
+ margin-right: 5em;
+ margin-left: 5em;
+ }
+ .flex.ava-container p {
+  margin-right: 5em;
+  margin-left: 5em;
+ }
+  .aval{
+  height: 300px;
+  width: 600px;
+  border-radius: 50px;
+  margin-top: 2em;
+  }
+  pre {
+    color: #ffffff;
+    margin-right: 6em;
+    margin-left: 6em;
+  }
+/*==============================*/
+/*===========================================================================================
+                                        Parte de FAQ 
+=============================================================================================*/
+#FAQ{
+  background-image: linear-gradient(#1e0023,#44014f,#4e015b)
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  
+  
+  border-radius: 30px;
+  justify-items: center;
+
+}
+.letra{
+  text-align: left;
+  font-size: 1em;
+  padding: 2em;
+}
+/* imagem do boneco*/
+.boneco{
+  align-self: flex-end;
+  margin-right: 2em;
+}
+/*=============================================== 
+            FIM DA PARTE DE FAQ
+==============================================*/   
+/*==============================================
+           CONTATOS
+================================================*/
+#Contatos{
+  background-image: linear-gradient(#1e0023,#1e0023,#000)
+}
+.cont-container{
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+.cont-row{
+  width: 1000px;
+  height: 120px;
+  margin: 0 auto;
+  
+  align-items: center;
+  justify-content: flex-start;
+}
+.flex.cont-container img{
+  width: 5%;
+  height: 40%;
+  margin-right: 2em;
+}
+.flex.cont-container p{
+  font-size: 2em;
+}
+/*======================================================================================*/
+/*========================================================================================
+                                      Contatos
+========================================================================================*/
+.block{
+  display: block;
+}
+.loca-container{
+  width: 100%;
+  height: 400px;
+  margin: auto 0;
+  flex-direction: column;
+}
+.block.loca-container h1 {
+  margin-bottom: -2em;
+}
+.loca{
+  width: 1100px;
+  height: 230px;
+  margin: auto 0;
+  
+  justify-content: center;
+  align-items: flex-end;
+  
+}
+.flex.loca img {
+  width: 5%;
+  height: 18%;
+}
+.mapa{
+  margin-bottom: 5em;
+  margin-top: -11em;
+}
+           
+/*=====================================================
+                  RODAPÉ
+=======================================================*/
+footer{
+  background-image: linear-gradient(#44014f,#1e0023,#000);
+  width: 100%;
+  height: 50%;
+}
+.footer-container{
+  width: 100%;
+  height: 40%;
+
+  justify-content: space-between;
+}
+.footer-logo{
+  width: 15%;
+}
+footer div img{
+  width: 15%;
+}
+
+.social{
+  width: 20%;
+  flex-flow: column wrap;
+  justify-content: space-around;
+
+}
+
+/*===================================================================================
+                          FIM DO RODAPÉ
+====================================================================================*/                          
+
