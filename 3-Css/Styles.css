@@ -43,7 +43,7 @@ p {
   background-position: center;
   background-size: cover;
   padding: 14em;
-  filter: contrast(110%) drop-shadow(0px 10px 21px #000);
+  filter: contrast(130%) drop-shadow(0px 10px 21px #000);
   
 }
 
@@ -166,9 +166,16 @@ nav ul li a > img:hover{
   width: 300px;
   height: 200px;
   background-size: 300px;
-  font-size: 3em; 
+  font-size: 2.5em; 
   border-radius: 30px;
+  font-family: 'Luckiest Guy', cursive;
   border: 1px solid white;
+  justify-content: center;
+  align-items: center;
+  text-shadow: -3px -3px 0 #000,
+                    3px -3px 0 #000,
+                 -3px  3px 0 #000,
+                    3px  3px 0 #000;
 }
 
 .flex-wrap-central > div{
@@ -188,7 +195,7 @@ nav ul li a > img:hover{
 .aniversario{ 
   background-image: url(../2-imagens/Imagens-de-salão-de=eventos/Eventos/Aniversario.jpg);
   background-position: center;
-  font-size: 2.2em; 
+  font-size: 1.8em; 
 }
 .anos{  
   background-image: url(../2-imagens/Imagens-de-salão-de=eventos/Eventos/15\ Anos.jpg);
@@ -202,15 +209,16 @@ nav ul li a > img:hover{
   }
 .formatura{
   background-image: url(../2-imagens/Imagens-de-salão-de=eventos/Eventos/Formatura.jpg);  
-  font-size: 2.4em; 
+  font-size: 1.8em;
+  
 }
 .casamento{
   background-image: url(../2-imagens/Imagens-de-salão-de=eventos/Eventos/Casamento.jpg);  
-  font-size: 2.4em;  
+  font-size: 1.8em;  
 }
 .confra{
   background-image: url(../2-imagens/Imagens-de-salão-de=eventos/Eventos/Confraternização.jpg);
-  font-size: 2em;
+  font-size: 1.8em;
 }
 h2{
   color: #fff;
@@ -219,6 +227,9 @@ h2{
 }
 .margin-top{
   margin-top: 60px;
+}
+.margin-bot{
+  margin-bottom: 70px;
 }
 
 /*=========================================================================
@@ -262,7 +273,7 @@ h2{
 =================================================================================*/
 #Infraestrutura-Galeria{
   background-color: #1e0023;
-  filter: contrast(100%) drop-shadow(0px 10px 21px #000);
+  filter: drop-shadow(0px 10px 21px #000);
 }
 #Infraestrutura-Galeria > p{
   font-size: 1.5em;
@@ -294,9 +305,6 @@ h2{
   border-radius: 20px;
   margin-bottom: 2em;
   
-}
-.fotos{
-  align-items: center;
 }
 /*==============================================================================*/
 

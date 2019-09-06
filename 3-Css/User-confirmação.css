@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+body{
+  height: 100%;
+  background-color: #111111;
+  background-image: linear-gradient(#4e015b,#44014f,#1e0023,#000000);
+
+}
+section{
+  text-align: center;
+}
+  
+.flex{
+  display: flex;
+}
+
+p {
+  color: #ffffff;
+  font-family: 'Itim', cursive; 
+  font-size: 1.6em;
+}
+
+/*=================================================================================
+                        HEADER
+=================================================================================*/
+header{
+    background-image: linear-gradient(#44014f,#1e0023,#000);
+    
+}
+header div #logo img{
+    width: 25%;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+.container-header{
+    width: 100%;
+    height: 14%;
+    align-items: flex-end;
+    justify-content: space-between;
+    
+}
+
+/*==================================================================*/
+/*===============================================================
+                    MAIN
+ =============================================================*/
+.conf{
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.conf > img{
+    width: 50%;
+}
+button{
+    width: 7em;
+    height: 1.7em;
+    background-color: #000;
+    color: white;
+    font-size: 2em;
+    border-radius: 20px;   
+}
+button:hover{
+    background-color: #fff;
+    color: #000;
+    border: #000;
+}
+.margin{
+    margin-top: 2em;
+}
+
+/*=====================================================
+                  RODAPÉ
+=======================================================*/
+footer{
+    background-image: linear-gradient(#44014f,#1e0023,#000);
+    width: 100%;
+    height: 50%;
+  }
+  .footer-container{
+    width: 100%;
+    height: 20%;
+  
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .footer-logo{
+    width: 13%;
+    height: 90%;
+  }
+  footer div img{
+    width: 15%;
+  }
+  
+  .social{
+    width: 20%;
+    flex-flow: column wrap;
+  }
+  
+  /*===================================================================================
+                            FIM DO RODAPÉ
+  ====================================================================================*/

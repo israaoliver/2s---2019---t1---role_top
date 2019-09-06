@@ -217,8 +217,8 @@ footer{
   align-items: flex-end;
 }
 .footer-logo{
-  width: 15%;
-  height: 93%;
+  width: 13%;
+  height: 90%;
 }
 footer div img{
   width: 15%;
@@ -227,8 +227,6 @@ footer div img{
 .social{
   width: 20%;
   flex-flow: column wrap;
-  
-
 }
 
 /*===================================================================================
