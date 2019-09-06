@@ -8,30 +8,29 @@ html{
     height: 100%;
 }
 body{
-    width: 100%;
-    background-color: #111111;
-    background-image: linear-gradient(#4e015b,#44014f,#1e0023,#000000);
-    text-align: center;
-  
-  }
-  section{
-      align-self: center;
-  }
-  
+  height: 100%;
+  background-color: #111111;
+  background-image: linear-gradient(#4e015b,#44014f,#1e0023,#000000);
 
- .flex{
-    display: flex;
 }
-form * {
-    margin: 5px 0;
-    text-align: left;
-    overflow: hidden;
+section{
+  text-align: center;
+}
+  
+.flex{
+  display: flex;
 }
 
 p {
-    color: #ffffff;
-    font-family: 'Limelight', cursive; 
-    font-size: 1.4em;
+  color: #ffffff;
+  font-family: 'Itim', cursive; 
+  font-size: 1.4em;
+}
+
+h2{
+  color: #fff;
+  margin-bottom: 1em;
+  font-size: 1.8em;
 }
 /*======================================================================================
                              Nav
@@ -102,14 +101,88 @@ nav{
     z-index: 1000;
   }
   /* Nav fim====================*/
+/*==========================================================================================
+                                FORMULARIOS
+============================================================================================*/
+form * {
+  margin: 5px 0;
+  text-align: left;
+  overflow: hidden;
+}
+form a{
+  color: #fff;
+}
+form a:hover{
+  color: #000;
+}
+
+form label{
+  color: white;
+  font-weight: bold;
+}
+
+form input {
+  width: 300px;
+  height: 25px;
+  border: none;
+  text-align: left;
+  padding: 0 2px;
+  border-radius: 5px;
+}
+form input[type="submit"]{
+  background-color: #000;
+  border: 1px solid #000;
+  color: #fff;
+  margin: 10px 0;
+  width: 50%;
+  height: 2.4em;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+form input[type="submit"]:hover{
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #fff;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  font-weight: bolder;
+}
+form input[type="checkbox"]{
+  width: 10%;
+  height: 1em;
+
+}
+
+
   /*==================================================================
-                            LOGIN
+                            LOGIN/Cadastro
   ====================================================================*/
-  #login{
+#login{
+    display: flex;
     width: 400px;
-    height: 500px;
+    height: 320px;
     border: 1px solid white;
-  }
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    background-color: rgba(220,220,220,0.2);  
+    border-radius: 50px; 
+}
+
+#cadastro{
+  display: flex;
+  width: 400px;
+  height: 550px;
+  border: 1px solid white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  background-color: rgba(220,220,220,0.2);  
+  border-radius: 50px;
+}
+
+
 
 
 /*===============================================================
@@ -118,7 +191,7 @@ nav{
  
  main{
      width: 1000px;
-     height: 800px;
+     height: 100%;
      margin: 0 auto;
      justify-content: space-around;
      align-items: center;
@@ -134,7 +207,7 @@ nav{
 footer{
     background-image: linear-gradient(#44014f,#1e0023,#000);
     width: 100%;
-    height: 50%;
+    height: 60%;
 }
 .footer-container{
     width: 100%;
