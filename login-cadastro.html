@@ -44,7 +44,7 @@
                 <div>
                     <label for="email">E-mail</label>
                     <br>
-                    <input id="email" type="email">
+                    <input id="email" type="email" name="email">
                 </div>
 
                 <div>
@@ -52,10 +52,10 @@
                     <br>
                     <input id="senha" required type="password" maxlength="15" minlength="8">
                 </div>
-                <input type="submit" value="LOGIN">
+                <input type="submit" value="LOGIN" name="senha">
                 <br>
                 <div>
-                    <input type="checkbox" name="lembra" value="Lembre-se" >Lembre-se de Mim
+                    <input type="checkbox" name="lembrar" value="Lembre-se">Lembre-se de Mim
                 </div>
                 <a href="#">Esqueceu a senha?</a>
 
@@ -71,33 +71,33 @@
                 <div>
                     <label for="nome">Nome Completo</label>
                     <br>
-                    <input id="nome" type="text" maxlength="20" minlength="3" name="nome">
+                    <input id="nome" type="text" maxlength="20" minlength="3" name="nome" placeholder="Escreva seu nome por extenso">
                 </div>
                 <div>
                         <label for="email">E-mail</label>
                         <br>
-                        <input id="email" type="email">
+                        <input id="email" type="email" name="email" placeholder="ex:Seu.email@email.com">
                 </div>
                 <div>
                         <label for="telefone">Telefone</label>
                         <br>
-                        <input id="telefone" type="text" />
+                        <input id="telefone" type="text" name="telefone" minlength="10" maxlength="11" placeholder="ex:( ) xxxxx-xxxx" readonly>
 
                 </div>
                 <div>
                         <label for="senha">Senha</label>
                         <br>
-                        <input id="senha" type="password" maxlength="15" minlength="8">
+                        <input id="senha" type="password" maxlength="15" minlength="8" placeholder="min. de 8 caracteres">
                 </div>
                 <div>
                     <label for="rep-senha" >Corfirme a Senha</label>
                     <br>
-                    <input id="rep-senha" type="password" maxlength="15" minlength="8">
+                    <input id="rep-senha" type="password" maxlength="15" minlength="8" placeholder="Repita a mesma senha do campo acima">
                 </div>
                 <div>
                     <label for="cpf">CPF/CNPJ</label>
                     <br>
-                    <input id="cpf" required type="text" maxlength="11" minlength="11">
+                    <input id="cpf" required type="text" maxlength="11" minlength="11" placeholder="ex:123.456.789-10">
                 </div>
                 <input type="checkbox" name="termos" value="termos"><a href="">Aceito os Termos de Condição</a>
                 <input type="submit" value="Confirmar">
@@ -110,6 +110,15 @@
     
         
             <img class="footer-logo" src="2-Imagens/logo do RolêTop.png" alt="Logo do RoleTop">
+            <div class="end">
+                    <address>
+                            Avenida de Limeira, 539 - Campos Elíseos - SP
+                            <br />
+                            roletop@email.com
+                            <br />
+                            11 1234 6789
+                        </address>
+            </div>
             <div class=" flex social">
                 <div>
                     <p>Facebook:<img src="1-Icones/Social/Facebook.png" title="Logo Facebook"></p>

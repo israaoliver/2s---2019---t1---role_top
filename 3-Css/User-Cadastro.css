@@ -57,18 +57,18 @@ h2{
     flex-direction: row-reverse;
     align-items:center; 
 }
-.text{
-    color: #fff;
-    font-size: 1.6em;
-}
+
 .user > img{
-    width: 35%;
+    width: 30%;
+    margin-top: -1em;
+
 }
 .container-header{
     background-image: linear-gradient(#4e015b,#1e0023,#000000);
     width: 100%;
     height: 14%;
     justify-content: space-between;
+    position: fixed;
 }
 
 /*======================================================================================
@@ -112,14 +112,16 @@ nav ul{
                           Cadastro parte de cima
  ========================================================================*/
  .flex.cad-container img{
-  width: 3%;
-  height: 3%;
+  width: 5.5%;
+  height: 8%;
 }
 
  .cad-container{
   justify-content: flex-start;
-  margin-left: 4em; 
-  margin-top: 2em;  
+  margin-left: -20em; 
+  margin-top: 10em;  
+  align-self: flex-start;
+  position: fixed;
 }
 h1{
   color: white;
@@ -133,53 +135,103 @@ h1{
 =====================================================================*/
 main{
   width: 100%;
+  height: 1000px;
   margin: 0 auto;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #44014f;
 }
-#cadastro{
-  display: flex;
-  width: 500px;
-  height: 700px;
-  border: 1px solid white;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column; 
-  margin-right: 40em;
-  border-radius: 50px;
-}
-
-.cad-box{
-  width: 500px;
-  height: 100px;
-  border: 1px solid white;
-  justify-content: space-between;
-}
-.marg{
-  margin-right: 4.5em;
-}
-.cad-box-2{
-  width: 500px;
-  height: 120px;
-  border: 1px solid white;
-  justify-content: space-between;
-}
-
-
 form * {
   margin: 9px 0;
   text-align: left;
   overflow: hidden;
 }
 
+/* flex-box de todos os inputs */
+#cadastro{
+  display: flex;
+  width: 500px;
+  height: 700px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column; 
+  margin-top: 5em;
+  border-radius: 50px;
+}
+/* flex-box do `Nome do evento` e da `Data do evento` */
+.cad-box{
+  width: 500px;
+  height: 100px;
+  justify-content: space-between;
+}
+.marg{
+  margin-right: 2.5em;
+}
+/* flex-box do `Tipo do evento` e dos `Servi;os Opcionais` */
+.cad-box-2{
+  width: 500px;
+  height: 120px;
+  justify-content: space-between;
+}
+
+
+
+/* Texto dos Inputs */
 form label{
   color: white;
   font-weight: bold;
   font-family: 'Vollkorn', serif;  
   font-size: 1.5em;
 }
-
-.descricao input{
+/*texto do Publicopriv.*/
+#priv{
+  color: #fff;
+}
+/* caixa de texto */
+#descricao{ 
+  width: 300px; 
+  height: 150px; 
+  resize: none;
+  border-radius: 6px;
+}
+/*=====================================================
+                  RODAPÉ
+=======================================================*/
+footer p {
+  font-size: 1.4em;
+}
+footer{
+  background-image: linear-gradient(#44014f,#1e0023,#000);
   width: 100%;
-  height: 300px;
+  height: 50%;
+}
+.footer-container{
+  width: 100%;
+  height: 20%;
+
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.end{
+  color: #fff;
+  font-size: 1em;
+  align-self: flex-end;
+  text-align: center;
 
 }
+.footer-logo{
+  width: 13%;
+  height: 90%;
+}
+footer div img{
+  width: 15%;
+}
+
+.social{
+  width: 20%;
+  flex-flow: column wrap;
+}
+
+/*===================================================================================
+                          FIM DO RODAPÉ
+====================================================================================*/

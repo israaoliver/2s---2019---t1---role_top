@@ -35,16 +35,17 @@ header{
     
 }
 header div #logo img{
-    width: 25%;
-    margin-top: 2em;
+    width: 20%;
+    margin-top: 0.8em;
     margin-left: 2em;
 }
 
 .container-header{
     width: 100%;
-    height: 14%;
+    height: 50;
     align-items: flex-end;
     justify-content: space-between;
+    
     
 }
 
@@ -54,12 +55,12 @@ header div #logo img{
  =============================================================*/
  main{
    width: 100%;
-   height: 1000px;
+   height: 800px;
    background-image: linear-gradient(#4e015b,#44014f,#1e0023,#000000);
  }
 .conf{
     width: 800px;
-    height: 1000px;
+    height: 600px;
     margin: 0 auto;
     justify-content: center;
     flex-direction: column;

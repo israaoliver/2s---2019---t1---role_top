@@ -218,6 +218,13 @@ footer{
   justify-content: space-between;
   align-items: flex-end;
 }
+.end{
+  color: #fff;
+  font-size: 1em;
+  align-self: flex-end;
+  text-align: center;
+
+}
 .footer-logo{
   width: 13%;
   height: 90%;

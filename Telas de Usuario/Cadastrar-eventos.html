@@ -29,11 +29,11 @@
                 </div>
             </header>
             <section>
+                <main class="flex">
                 <div class="flex cad-container">
                     <img src="../1-Icones/Usuario/Cadastrar.png">
                     <h1>Cadastrar Evento</h1>
                 </div>
-                <main class="flex">
                     <section id="cadastro">
 
                         <form method="GET" action="#">
@@ -43,7 +43,7 @@
                              <div>
                                  <label for="nome">Nome do Evento</label>
                                  <br>
-                                 <input id="nome" type="text" maxlength="20" minlength="4">
+                                 <input id="nome" type="text" maxlength="25" minlength="4">
                                 </div>      
                                 <div class="marg">
                                     <label for="data">Data do Evento</label>                                 
@@ -87,17 +87,17 @@
                                 <input id="numero" type="number" min="20" max="400" ><p> (max:400)</p>
                             </div>
                         </div>
-                        <div>
+                        <div class="descricao">
                             <label for="descricao">Descrição</label>
                             <br>
-                            <input id="descricao" type="text">
+                            <textarea id="descricao"></textarea>
                         </div>
-                        <div class="text">
+                        <div >
                             <label for="priv"> Público/Privado</label>
                             <br>
-                            <input id="priv" type="radio" name="gender" value="priv" >Privado
+                            <input id="priv" type="radio" name="gender" value="priv">Privado
                             <br>
-                            <input id="priv" type="radio" name="gender" value="pub">Público
+                            <input id="priv" type="radio" name="gender" value="pub" >Público
                         </div>
                         <input type="submit" value="Pagar">
                         
@@ -106,7 +106,33 @@
                 </main>
                     
             </section>
-
+            <footer class="flex footer-container">
+    
+        
+                <img class="footer-logo" src="../2-Imagens/logo do RolêTop.png" alt="Logo do RoleTop">
+                <div class="end">
+                        <address>
+                                Avenida de Limeira, 539 - Campos Elíseos - SP
+                                <br />
+                                roletop@email.com
+                                <br />
+                                11 1234 6789
+                            </address>
+                </div>
+                <div class=" flex social">
+                    <div>
+                        <p>Facebook:<img src="../1-Icones/Social/Facebook.png" title="Logo Facebook"></p>
+                    </div>
+                    <div>
+                        <p>Instagram:<img src="../1-Icones/Social/Instagram.png" title="Logo Instagram"></p>
+                    </div>
+                    <div>
+                        <p>Acesso a Deficiente:<img src="../1-Icones/PNGs Prontos/deficiente.png" title="Logo deficiente"></p>
+                    </div>
+                </div>
+            
+        </footer>   
+             
     
 </body>
 </html>
