@@ -7,7 +7,8 @@
     <title>Cadastro de Evento</title>
     <link href="../2-Imagens/logo do RolêTop.ico" rel="icon" type="image/x-icon" />
     <link href="https://fonts.googleapis.com/css?family=Carter+One|Itim|Limelight|Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../3-Css/User-Cadastrar.css">
+    <link rel="stylesheet" type="text/css" href="../3-Css/User-Cadastro.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Vollkorn&display=swap" rel="stylesheet">
 </head>
 <body>
         <header>
@@ -28,15 +29,84 @@
                 </div>
             </header>
             <section>
-                <div>
+                <div class="flex cad-container">
                     <img src="../1-Icones/Usuario/Cadastrar.png">
-                    <h1>Cadastrar Eventos</h1>
+                    <h1>Cadastrar Evento</h1>
                 </div>
-                <main>
-                    
-                </main>
+                <main class="flex">
+                    <section id="cadastro">
 
+                        <form method="GET" action="#">
+
+                         <div class="flex cad-box">
+
+                             <div>
+                                 <label for="nome">Nome do Evento</label>
+                                 <br>
+                                 <input id="nome" type="text" maxlength="20" minlength="4">
+                                </div>      
+                                <div class="marg">
+                                    <label for="data">Data do Evento</label>                                 
+                                    <br>
+                                    <input id="data" type="date">
+                                </div> 
+                            </div>   
+                        <div class="flex cad-box-2">
+                            <div>
+                                <label for="tipo">Tipo de Evento</label>
+                                <br>
+                                <select id="tipo">
+                                    <option value="" disabled selected>Selecione</option>
+                                    <option>Aniversário</option>
+                                    <option>Balada</option>
+                                    <option>Casamento</option>
+                                    <option>Chá de bebe</option>
+                                    <option>Confraternizações</option>
+                                    <option>Festas</option>
+                                    <option>Formatura</option>                                    
+                                    <option>15 anos</option>                             
+                                </select>
+                            </div>
+                            <div>
+                                <label for="opcional">Serviços Opcionais</label>
+                                <br>
+                                <select id="opcional">
+                                    <option value="" disabled selected>Equipamentos</option>
+                                    <option>Iluminação</option>
+                                    <option>Som</option>
+                                    <option>Iluminação e Som</option>
+                                </select>
+                                <p>*Limpeza incluso em todos os planos.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="numero">Quantidade de Pessoas</label>
+                            <br>
+                            <div class="flex">
+
+                                <input id="numero" type="number" min="20" max="400" ><p> (max:400)</p>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="descricao">Descrição</label>
+                            <br>
+                            <input id="descricao" type="text">
+                        </div>
+                        <div class="text">
+                            <label for="priv"> Público/Privado</label>
+                            <br>
+                            <input id="priv" type="radio" name="gender" value="priv" >Privado
+                            <br>
+                            <input id="priv" type="radio" name="gender" value="pub">Público
+                        </div>
+                        <input type="submit" value="Pagar">
+                        
+                    </form>
+                </section>
+                </main>
+                    
             </section>
+
     
 </body>
 </html>

@@ -31,6 +31,7 @@ h2{
   color: #fff;
   margin-bottom: 1em;
   font-size: 1.8em;
+  font-family: 'Poppins', sans-serif;
 }
 /*======================================================================================
                              Nav
@@ -119,6 +120,7 @@ form a:hover{
 form label{
   color: white;
   font-weight: bold;
+  font-family: 'Vollkorn', serif;  
 }
 
 form input {

@@ -20,10 +20,11 @@ section{
   display: flex;
 }
 
+
 p {
   color: #ffffff;
   font-family: 'Itim', cursive; 
-  font-size: 1.4em;
+  font-size: 0.7em;
 }
 
 h2{
@@ -107,3 +108,78 @@ nav ul{
     box-shadow: 1px 5px black;
   }
 
+  /*======================================================================
+                          Cadastro parte de cima
+ ========================================================================*/
+ .flex.cad-container img{
+  width: 3%;
+  height: 3%;
+}
+
+ .cad-container{
+  justify-content: flex-start;
+  margin-left: 4em; 
+  margin-top: 2em;  
+}
+h1{
+  color: white;
+  font-family: 'Carter One', cursive;
+  font-size: 2em;
+  margin-left: 1em;
+}
+
+/*======================================================================
+                          MAIN
+=====================================================================*/
+main{
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+}
+#cadastro{
+  display: flex;
+  width: 500px;
+  height: 700px;
+  border: 1px solid white;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column; 
+  margin-right: 40em;
+  border-radius: 50px;
+}
+
+.cad-box{
+  width: 500px;
+  height: 100px;
+  border: 1px solid white;
+  justify-content: space-between;
+}
+.marg{
+  margin-right: 4.5em;
+}
+.cad-box-2{
+  width: 500px;
+  height: 120px;
+  border: 1px solid white;
+  justify-content: space-between;
+}
+
+
+form * {
+  margin: 9px 0;
+  text-align: left;
+  overflow: hidden;
+}
+
+form label{
+  color: white;
+  font-weight: bold;
+  font-family: 'Vollkorn', serif;  
+  font-size: 1.5em;
+}
+
+.descricao input{
+  width: 100%;
+  height: 300px;
+
+}

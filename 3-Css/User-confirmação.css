@@ -8,7 +8,7 @@ html{
     height: 100%;
 }
 body{
-  height: 100%;
+  height: 1000px;
   background-color: #111111;
   background-image: linear-gradient(#4e015b,#44014f,#1e0023,#000000);
 
@@ -52,9 +52,14 @@ header div #logo img{
 /*===============================================================
                     MAIN
  =============================================================*/
+ main{
+   width: 100%;
+   height: 1000px;
+   background-image: linear-gradient(#4e015b,#44014f,#1e0023,#000000);
+ }
 .conf{
     width: 800px;
-    height: 800px;
+    height: 1000px;
     margin: 0 auto;
     justify-content: center;
     flex-direction: column;
