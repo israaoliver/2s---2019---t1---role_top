@@ -85,7 +85,7 @@ nav{
   position: fixed;
   width: 100%;
   z-index: 999;
-  height: 14%;
+  height: 19%;
 }
 nav #bt-mobile-menu{
   display: none;
@@ -137,8 +137,25 @@ nav ul > li:last-child {
   
   
 }
-nav ul li a > img:hover{
-  background-image: url('1-Icones/PNGs Prontos/login 2.png')
+/*===Imagem do Login==*/
+.login{
+  width: 130px;
+  height: 100px;
+  margin-top: -0.5em;
+}
+
+.ini{
+  background-image: url('../1-Icones/PNGs-Prontos/login.png');
+  background-position: center;
+  background-size: 100px;
+  background-repeat: no-repeat;
+}
+.login.ini:hover{
+  background-image: url('../1-Icones/PNGs-Prontos/login-2.png');
+  background-position: center;
+  background-size: 100px;
+  background-repeat: no-repeat;
+
 }
 /* Nav fim====================*/
 /*=============================================
@@ -468,7 +485,7 @@ h2{
 }
 /*======================================================================================*/
 /*========================================================================================
-                                      Contatos
+                                     Localização
 ========================================================================================*/
 .block{
   display: block;
@@ -493,7 +510,7 @@ h2{
 }
 .flex.loca img {
   width: 5%;
-  height: 18%;
+  height: 20%;
 }
 .mapa{
   margin-bottom: 5em;
