@@ -98,25 +98,10 @@ nav{
     
   }
   /*===Imagem do Login==*/
-.login{
-  width: 130px;
-  height: 100px;
-  margin-top: -0.5em;
-}
-
-.ini{
-  background-image: url('../1-Icones/PNGs-Prontos/login.png');
-  background-position: center;
-  background-size: 100px;
-  background-repeat: no-repeat;
-}
-.login.ini:hover{
-  background-image: url('../1-Icones/PNGs-Prontos/login-2.png');
-  background-position: center;
-  background-size: 100px;
-  background-repeat: no-repeat;
-
-}
+  .fa-user{
+    width: 200px;
+    height: 80px;
+  }
   /* Nav fim====================*/
 /*==========================================================================================
                                 FORMULARIOS

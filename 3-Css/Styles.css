@@ -137,26 +137,13 @@ nav ul > li:last-child {
   
   
 }
-/*===Imagem do Login==*/
-.login{
-  width: 130px;
-  height: 100px;
-  margin-top: -0.5em;
+
+
+.fa-user{
+  width: 200px;
+  height: 80px;
 }
 
-.ini{
-  background-image: url('../1-Icones/PNGs-Prontos/login.png');
-  background-position: center;
-  background-size: 100px;
-  background-repeat: no-repeat;
-}
-.login.ini:hover{
-  background-image: url('../1-Icones/PNGs-Prontos/login-2.png');
-  background-position: center;
-  background-size: 100px;
-  background-repeat: no-repeat;
-
-}
 /* Nav fim====================*/
 /*=============================================
           Inicio Parte   de    Eventos
