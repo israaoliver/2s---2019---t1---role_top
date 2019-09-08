@@ -35,7 +35,7 @@ header{
     
 }
 header div #logo img{
-    width: 20%;
+    width: 15%;
     margin-top: 0.8em;
     margin-left: 2em;
 }
@@ -90,31 +90,40 @@ button:hover{
 /*=====================================================
                   RODAPÉ
 =======================================================*/
+footer p {
+  font-size: 1.4em;
+}
 footer{
-    background-image: linear-gradient(#44014f,#1e0023,#000);
-    width: 100%;
-    height: 50%;
-  }
-  .footer-container{
-    width: 100%;
-    height: 20%;
-  
-    justify-content: space-between;
-    align-items: flex-end;
-  }
-  .footer-logo{
-    width: 13%;
-    height: 90%;
-  }
-  footer div img{
-    width: 15%;
-  }
-  
-  .social{
-    width: 20%;
-    flex-flow: column wrap;
-  }
-  
-  /*===================================================================================
-                            FIM DO RODAPÉ
-  ====================================================================================*/
+  background-image: linear-gradient(#44014f,#1e0023,#000);
+  width: 100%;
+  height: 40%;
+}
+.footer-container{
+  width: 100%;
+  height: 18%;
+
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.end{
+  color: #fff;
+  font-size: 1em;
+  align-self: flex-end;
+  text-align: center;
+
+}
+.footer-logo{
+  width: 13%;
+}
+footer div img{
+  width: 15%;
+}
+
+.social{
+  width: 20%;
+  flex-flow: column wrap;
+}
+
+/*===================================================================================
+                          FIM DO RODAPÉ
+====================================================================================*/
