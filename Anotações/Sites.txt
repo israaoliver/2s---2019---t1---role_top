@@ -4,3 +4,5 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file#webkitdirec
 https://pt.stackoverflow.com/questions/37418/como-colocar-%C3%ADcone-dentro-de-input-usando-font-awesome
 
 https://www.devmedia.com.br/customizando-formularios-com-css/37212
+
+https://benschwarz.github.io/gallery-css/#item-1

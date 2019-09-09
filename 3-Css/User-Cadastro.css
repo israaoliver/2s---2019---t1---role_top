@@ -81,6 +81,9 @@ form input[type="number"]{
   border-radius: 6px;
 }
 
+#pictures{
+  color: #fff;
+}
 
 /* botão de pagar*/
 form input[type="submit"] {

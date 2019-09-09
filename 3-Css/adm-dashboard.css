@@ -84,17 +84,18 @@ h2{
     align-items: center;
 }
 
+.event-container img{
+    width: 85%;
+}
+
 .pend-container{
-    background-color: #000;
+    background-color: #fff;
     width: 150px;
     height: 150px;
+    border: 3px solid #000;
     align-items: center;
     justify-content: center;
     margin-top: -5em;
-
-}
-.pend-container img{
-    width: 80%
 }
 
 .check-container{
@@ -106,9 +107,6 @@ h2{
     justify-content: center;
     margin-top: -5em;
 }
-.check-container img{
-    width: 90%
-}
 
 .recuse-container{
     background-color: #fff;
@@ -118,11 +116,15 @@ h2{
     align-items: center;
     justify-content: center;
     margin-top: -5em;
-
 }
 
-.recuse-container img{
-    width: 90%
+.black-container{
+    background-color: #000;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5em;
 }
 /*=================================================================================*/
 /*=================================================================================
@@ -159,6 +161,11 @@ table .ok > a{
 table .rec > a{
     text-decoration: none;
     color: red;
+}
+table .read > a{
+    text-decoration: none;
+    color:  #ffc600;
+
 }
 
 tfoot td {

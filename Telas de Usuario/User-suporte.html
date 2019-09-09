@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,57 +9,91 @@
     <link href="../2-Imagens/logo do RolêTop.ico" rel="icon" type="image/x-icon" />
     <link href="https://fonts.googleapis.com/css?family=Carter+One|Itim|Limelight|Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../3-Css/User-Principal.css">
+    <link rel="stylesheet" type="text/css" href="../3-Css/User-suporte.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins|Vollkorn&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/349a64cb04.js"></script>
 </head>
+
 <body>
-        <header>
-        
-                <div class="flex container-header">
-                    <div class="logo"><a href="../Home.html"><img  src="../2-Imagens/logo do RolêTop.png" alt="logo Rolêtop" title="Logo RolêTop"></a></div>
-                    <nav>
-            
-                                    <ul>
-                                        <li class="bt-common-menu"><a onclick="toggleMobileMenu()" class="sob" href="User-home.html">Home</a></li>
-                                        <li class="bt-common-menu"><a onclick="toggleMobileMenu()" class="sob" href="User-Eventos.html">Meus Eventos</a></li>
-                                        <li class="bt-common-menu"><a onclick="toggleMobileMenu()" class="sob" href="User-cadastrar.html">Cadastrar Evento</a></li>
-                                        <li class="bt-common-menu"><a onclick="toggleMobileMenu()" class="sob" href="User-informacoes.html">Suas Informações</a></li>
-                                        <li class="bt-common-menu"><a onclick="toggleMobileMenu()" class="sob" href="User-Suporte.html">Suporte</a></li>
-                                    </ul>
-                    </nav>
-                    <div class="user text" href="login-cadastro.html"><img src="../1-Icones/PNGs Prontos/usuario.png" >Daniel da silva neto</div>     
-                </div>
-            </header>
-            <section>
-                <main>
+    <header>
+
+        <div class="flex container-header">
+            <div class="logo">
+                <a href="../Home.html"><img src="../2-Imagens/logo do RolêTop.png" alt="logo Rolêtop" title="Logo RolêTop"></a>
+            </div>
+            <nav>
+
+                <ul>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" class="sob" href="User-home.html">Home</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" class="sob" href="User-Eventos.html">Meus Eventos</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" class="sob" href="User-cadastrar.html">Cadastrar Evento</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" class="sob" href="User-informacoes.html">Suas Informações</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" class="sob" href="User-Suporte.html">Suporte</a></li>
+                </ul>
+            </nav>
+            <div class="user text" href="login-cadastro.html"><img src="../1-Icones/PNGs-Prontos/usuario.png">Daniel da silva neto</div>
+        </div>
+    </header>
+    <section>
+        <main class="flex">
+            <div class="flex user-container">
+                <i class="icon fas fa-headset fa-3x"></i>
+                <h1>Suporte</h1>
+            </div>
+            <section id="suporte">
+                <div class=" suporte flex">
+
                     
-                </main>
+                        <form method="GET" action="User-Eventos.html">
+                            
+                                <label for="tipo">Tipo de Problema</label>
+                            <br>
+                            <select id="tipo">
+                                <option value="" disabled selected>Selecione</option>
+                                <option>Site bugado</option>
+                                <option>Não conssigo cadastrar</option>
+                                <option>Pagamento dando erro</option>
+                                <option>Um plano fora dos orçamento</option>
+                                <option>Posso fazer uma visita</option>
+                            </select>
+                            <div class="descricao">
+                                <label for="descricao">Descrição</label>
+                                <br>
+                                <textarea id="descricao"></textarea>
+                            </div>
+                            <input type="submit" value="Enviar">
+                        </form>
+                 </div>
             </section>
-            <footer class="flex footer-container">
-    
-        
-                    <img class="footer-logo" src="../2-Imagens/logo do RolêTop.png" alt="Logo do RoleTop">
-                    <div class="end">
-                            <address>
+
+        </main>
+    </section>
+    <footer class="flex footer-container">
+
+        <img class="footer-logo" src="../2-Imagens/logo do RolêTop.png" alt="Logo do RoleTop">
+        <div class="end">
+            <address>
                                     Avenida de Limeira, 539 - Campos Elíseos - SP
                                     <br />
                                     roletop@email.com
                                     <br />
                                     11 1234 6789
                                 </address>
-                    </div>
-                    <div class=" flex social">
-                        <div>
-                            <p>Facebook:<img src="../1-Icones/Social/Facebook.png" title="Logo Facebook"></p>
-                        </div>
-                        <div>
-                            <p>Instagram:<img src="../1-Icones/Social/Instagram.png" title="Logo Instagram"></p>
-                        </div>
-                        <div>
-                            <p>Acesso a Deficiente:<img src="../1-Icones/PNGs Prontos/deficiente.png" title="Logo deficiente"></p>
-                        </div>
-                    </div>
-                
-            </footer>
-    
+        </div>
+        <div class=" flex social">
+            <div>
+                <p>Facebook:<img src="../1-Icones/Social/Facebook.png" title="Logo Facebook"></p>
+            </div>
+            <div>
+                <p>Instagram:<img src="../1-Icones/Social/Instagram.png" title="Logo Instagram"></p>
+            </div>
+            <div>
+                <p>Acesso a Deficiente:<img src="../1-Icones/PNGs Prontos/deficiente.png" title="Logo deficiente"></p>
+            </div>
+        </div>
+
+    </footer>
+
 </body>
+
 </html>
