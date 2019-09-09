@@ -28,25 +28,48 @@ h2{
     margin-top: 0.5em;
     font-weight: bolder;
 }
-p{
+.flex.event-container p{
     font-size: 1.5em;
     font-family: 'Fredoka One', cursive;
 
 }
 
+
+.icon{
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+    margin-left: 2.5em;
+    margin-top: -18em;
+    position: fixed;
+}
+
+.flex.icon > a{
+    text-decoration: none;
+    color: black;
+}
 .flex.cima{
     width: 100%;
-    height: 100px;
-    margin-bottom: 5em;
+    height: 2px;
     align-items: center;
     justify-content: center;
 
 }
 
-/* parte dos containers do centrais */
+.fas.fa-backward.fa-2x{
+    text-shadow: -1px -1px 0 #fff,
+                    1px -1px 0 #fff,
+                 -1px  1px 0 #fff,
+                    1px  1px 0 #fff;
+}
+/*=================================================================
+                 parte dos containers do centrais 
+ ================================================================= */               
 .central-container{
     width: 100%;
-    height: 500px;
+    height: 100px;
     justify-content: space-evenly;
 }
 
@@ -62,10 +85,9 @@ p{
 }
 
 .pend-container{
-    background-color: #fff;
+    background-color: #000;
     width: 150px;
     height: 150px;
-    border: 3px solid #000;
     align-items: center;
     justify-content: center;
     margin-top: -5em;
@@ -102,5 +124,46 @@ p{
 .recuse-container img{
     width: 90%
 }
+/*=================================================================================*/
+/*=================================================================================
+                            Dashboard
+===================================================================================*/
+table{
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    padding: 5px;
+    word-break: normal;
+}
+table th {
+    width: 170px;
+    height: 1.5em;
+    font-size: 1.4em;
+    color: #000;
+    background-color:#fff;
 
+}
+table td{
+    border: 1px solid white;
+    font-size: 1.2em;
+
+}
+
+table td .ok{
+    text-align: center;
+}
+table .ok > a{
+    text-decoration: none;
+    color: #00be11;
+}
+table .rec > a{
+    text-decoration: none;
+    color: red;
+}
+
+tfoot td {
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+}
 

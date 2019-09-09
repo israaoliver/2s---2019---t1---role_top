@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Adm</title>
+    <title>Pendentes</title>
     <link href="../2-Imagens/logo do RolêTop.ico" rel="icon" type="image/x-icon" />
     <link href="https://fonts.googleapis.com/css?family=Carter+One|Itim|Limelight|Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Fredoka+One|Luckiest+Guy&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../3-Css/adm-principal.css">
-    <link rel="stylesheet" type="text/css" href="../3-Css/Adm-eventos-princ.css">
+    <link rel="stylesheet" type="text/css" href="../3-Css/Pendentes.css">
     <script src="https://kit.fontawesome.com/349a64cb04.js"></script>
 </head>
 
@@ -31,7 +31,10 @@
             </nav>
     </header>
     <main class="flex geral">
-        <h1>DashBoard</h1>
+        <div class="flex icon"><a href="Adm-eventos-princ.html"><i class="fas fa-backward fa-2x"></i></a></div>
+        <div class="flex cima ">
+            <h1>DashBoard</h1>
+        </div>
         <section class="flex central-container">
 
             <div class="flex event-container">
@@ -65,6 +68,43 @@
                 <p>2</p>
             </div>
         </section>
+        <section>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome do Evento</th>
+                        <th>Data</th>
+                        <th>Serviços</th>
+                        <th>Tipo</th>
+                        <th>Priv./Publi.</th>
+                        <th>Quantidade</th>
+                        <th>Pagamento</th>
+                    <th colspan="2">Aprovar</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td colspan="9">
+                        <p>Eventos atualizados em 23/09/2026 às 8h41</p>
+                    </td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>SteamPunk</td>
+                    <td>10/10/2019</td>
+                    <td>Completo</td>
+                    <td>Confraternização</td>
+                    <td>Publico</td>
+                    <td>300</td>
+                    <td>Confirmado</td>
+                    <td class="ok"><a href="#"><i class="fas fa-check"></i></a></td>
+                    <td class="rec"><a href="#"><i class="fas fa-times"></i></a></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
     </main>
     <footer class="flex footer-container">
 
