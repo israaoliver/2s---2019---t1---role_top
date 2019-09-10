@@ -105,11 +105,11 @@ nav ul{
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;  
-  font-size: 1em;
   font-family: 'Limelight', cursive;
   align-items: flex-start;
   justify-content: space-between;
   list-style-type: none;
+  font-size: 1em;
   margin-top: 1em;
 }
 nav ul > li{
@@ -117,10 +117,10 @@ nav ul > li{
   text-align: center;
 }
 nav ul > li > a{
+  padding: 1em;
   display: block;
   text-decoration: none;
   color: white;
-  padding: 1em;
 }
 
 nav ul > li > .sob:hover{
@@ -132,16 +132,8 @@ nav ul > li > .sob:hover{
 nav ul > li:last-child {
   font-family: 'Carter One', cursive;
   font-weight: bold;
-  padding: 0.2em;
-  margin-top: -1.5em;
-  
-  
-}
-
-
-.fa-user{
-  width: 200px;
-  height: 80px;
+  padding: 0.1em;
+  margin-top: -1em;    
 }
 
 /* Nav fim====================*/
@@ -150,28 +142,27 @@ nav ul > li:last-child {
 ==============================================*/
 
 .container-eve{
-  max-width: 1170px;
-  height: 1000px;
+  max-width: 80em;
+  height: 63em;
   margin: 0 auto;
   border: 1px solid white;
   backdrop-filter: blur(100px);
   background-color: rgba(220,220,220,0.2);
-  border-radius: 50px;
+  border-radius: 3em;
   
 }
 .flex-wrap-central{
-  width: 1170px;
-  height: 800px;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
+
 }
 
 .evento-container{
-  width: 300px;
-  height: 200px;
-  background-size: 300px;
-  font-size: 2.5em; 
-  border-radius: 30px;
+  width: 30%;
+  height: 7.5em;
+  background-size: 100%;
+  font-size: 1.8em; 
+  border-radius: 0.5em;
   font-family: 'Luckiest Guy', cursive;
   border: 1px solid white;
   justify-content: center;
@@ -183,7 +174,7 @@ nav ul > li:last-child {
 }
 
 .flex-wrap-central > div{
-  margin: 0.8em;
+  margin: 0.5em;
   filter: grayscale(1);
 
 }
@@ -199,7 +190,7 @@ nav ul > li:last-child {
 .aniversario{ 
   background-image: url(../2-imagens/Imagens-de-salão-de=eventos/Eventos/Aniversario.jpg);
   background-position: center;
-  font-size: 1.8em; 
+
 }
 .anos{  
   background-image: url(../2-imagens/Imagens-de-salão-de=eventos/Eventos/15\ Anos.jpg);
@@ -209,31 +200,25 @@ nav ul > li:last-child {
 }
 .cha{
   background-image: url(../2-imagens/Imagens-de-salão-de=eventos/Eventos/Cha\ de\ bebe.jpg);  
-  font-size: 2em; 
+
   }
 .formatura{
   background-image: url(../2-imagens/Imagens-de-salão-de=eventos/Eventos/Formatura.jpg);  
-  font-size: 1.8em;
+
   
 }
 .casamento{
   background-image: url(../2-imagens/Imagens-de-salão-de=eventos/Eventos/Casamento.jpg);  
-  font-size: 1.8em;  
+ 
 }
 .confra{
   background-image: url(../2-imagens/Imagens-de-salão-de=eventos/Eventos/Confraternização.jpg);
-  font-size: 1.8em;
+
 }
 h2{
   color: #fff;
   text-justify: center;
-  margin-top: 50px;
-}
-.margin-top{
-  margin-top: 60px;
-}
-.margin-bot{
-  margin-bottom: 70px;
+  margin-top: 1.5em;
 }
 
 /*=========================================================================
@@ -247,8 +232,8 @@ h2{
   background-color: #000;
 }
 #servicos img{
-  height: 150px;
-  width:  150px;
+  height: 80%;
+  width:  15%;
   align-self: baseline;
   
 }
@@ -256,8 +241,8 @@ h2{
   text-align: left
 }
 .serv-container{
-  width: 900px;
-  height: 900px;
+  width: 70%;
+  height: 53em;
   margin: 0 auto;
   flex-direction: column;
   justify-content: space-around;
@@ -284,30 +269,37 @@ h2{
 }
 .planta{
   margin-bottom: 3em;
+  width: 100%;
 }
 .container-inf{
-  max-width: 1100px;
+  max-width: 70%;
   height: 800px;
   margin: 0 auto;
   flex-direction: column;
+  border: 1px solid white;
   justify-content: space-around;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 1em;
+
+}
+.galeria{
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
 
 }
 .flex.galeria{
-  width: 1100px;
-  height: 1000px;
-  flex-flow: row wrap;
-  
-  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  border: 1px solid white; 
 
 }
 .flex.galeria div > img{
   width: 15em;
   height: 10em;
-  border-radius: 20px;
-  margin-bottom: 2em;
+  border-radius: 1em;
+  margin-bottom: 1em;
+
   
 }
 /*==============================================================================*/
@@ -536,3 +528,40 @@ footer div img{
                           FIM DO RODAPÉ
 ====================================================================================*/                          
 
+/*======================================================================================
+                        MOBILE
+=======================================================================================*/
+@media (max-width: 625px){
+  nav{
+    height: 90px;
+  }
+  nav ul > li > a > img{
+    display: none;
+  }
+
+  nav #bt-mobile-menu {
+    display: block;
+  }
+  
+  nav .bt-common-menu {
+    display: none;
+  }
+  
+  nav .bt-common-menu.active {
+    display: block;
+  }
+  
+  nav ul.mobile-mode {
+    display: flex;    
+    flex-direction: column;
+  }
+  #bt-login > i{
+    display: none;
+  }
+  nav ul > li > a{
+    padding: 1em;
+    background-color: #1e0023;
+  }
+  
+
+}
