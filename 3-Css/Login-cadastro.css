@@ -40,6 +40,9 @@ h2{
   margin: 0 auto;
   max-width: 1500px;
 }
+nav #bt-mobile-menu{
+  display: none;
+}
 
 nav{
     background-image: linear-gradient(#4e015b,#1e0023,#000000);
