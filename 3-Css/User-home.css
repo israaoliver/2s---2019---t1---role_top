@@ -82,7 +82,7 @@ header div .user img{
                     MAIN
 ======================================================================*/
 .main-container{
-    width: 70%;
+    width: 60%;
     height: 600px;
     flex-flow: row wrap;    
     margin: 0 auto;

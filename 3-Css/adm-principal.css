@@ -144,6 +144,7 @@ footer p{
     NAV
     =============================================*/           
     nav{
+      z-index: 999;
       height:1px;
     }
     nav #bt-mobile-menu {
@@ -196,6 +197,9 @@ footer p{
   display: none;
 }
 
+.flex.icon{
+  display: none;
+}
 /*=====================================================
                   RODAPÉ
 =======================================================*/
@@ -222,7 +226,8 @@ footer{
 }
 
 .social{
-  margin-right: 1em;
+  margin-right: 0em;
+  margin-bottom: 2em;
 }
 
 
