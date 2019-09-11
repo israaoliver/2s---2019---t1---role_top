@@ -269,7 +269,7 @@ h2{
   margin-bottom: 2em;
 }
 .planta{
-  width: 100%;
+  width: 70%;
 }
 .planta > img{
   width: 100%;
@@ -584,6 +584,7 @@ footer{
     }
     #bt-login > i{
       display: none;
+      
     }
     #bt-login{
       margin-top: -3em;
@@ -653,6 +654,9 @@ footer{
     /*==================================================================================
     INFRAESTRUTURA/GALERIA
     =================================================================================*/
+    .planta{
+      width: 100%;
+    }
     .container-inf{
       max-width: 100%;
       

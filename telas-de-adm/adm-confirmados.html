@@ -23,6 +23,11 @@
             <nav>
 
                 <ul>
+                        <li id="bt-mobile-menu">
+                                <a href="javascript:void(0);" class="icon" onclick="toggleMobileMenu()">
+                                    <i class="fa fa-bars fa-2x "></i>
+                                </a>
+                            </li>
                     <li class="bt-common-menu"><a onclick="toggleMobileMenu()" class="sob" href="Adm-eventos-princ.html"> Eventos</a></li>
                     <li class="bt-common-menu"><a onclick="toggleMobileMenu()" class="sob" href="adm-usuarios-princ.html">Usuarios</a></li>
                     <li class="bt-common-menu"><a onclick="toggleMobileMenu()" class="sob" href="">Suporte</a></li>
@@ -105,31 +110,63 @@
             </table>
         </section>
     </main>
-    <footer class="flex footer-container">
-
-        <img class="footer-logo" src="../2-Imagens/logo do RolêTop.png" alt="Logo do RoleTop">
-        <div class="end">
-            <address>
-                                            Avenida de Limeira, 539 - Campos Elíseos - SP
-                                            <br />
-                                            roletop@email.com
-                                            <br />
-                                            11 1234 6789
-                                        </address>
-        </div>
-        <div class=" flex social">
-            <div>
-                <p>Facebook:<img src="../1-Icones/Social/Facebook.png" title="Logo Facebook"></p>
+    <footer>
+            <div class="flex footer-container">
+            
+                <img class="footer-logo" src="../2-Imagens/logo do RolêTop.png" alt="Logo do RoleTop">
+                <div class="end">
+                        <address>
+                                Avenida de Limeira, 539 - Campos Elíseos - SP
+                                <br />
+                                roletop@email.com
+                                <br />
+                                11 1234 6789
+                            </address>
+                </div>
+                <div class=" flex social">
+                    <div class="flex foot">
+                        <p>Facebook:</p><br>
+                        <i class="social-icon fab fa-facebook-square fa-2x"></i>
+                    </div>
+                    <div class="flex foot">
+                        <p>Instagram:</p> <br>
+                        <i class="social-icon fab fa-instagram fa-2x"></i>
+                    </div>
+                    <div class="flex foot">
+                        <p>Acesso a Deficiente:</p>
+                        <i class=" social-icon fab fa-accessible-icon fa-2x"></i>
+                    </div>
+                </div>
             </div>
-            <div>
-                <p>Instagram:<img src="../1-Icones/Social/Instagram.png" title="Logo Instagram"></p>
-            </div>
-            <div>
-                <p>Acesso a Deficiente:<img src="../1-Icones/PNGs-Prontos/deficiente.png" title="Logo deficiente"></p>
-            </div>
-        </div>
-
-    </footer>
+        </footer>
+    <script>
+            function toggleMobileMenu() {
+                var ul = document.querySelector("nav ul");
+                var commonButtons = document.querySelectorAll("nav .bt-common-menu");
+                var icon = document.querySelector(".icon > i");
+    
+                ul.classList.toggle("mobile-mode");
+    
+                if (icon.classList.contains("fa-bars")) {
+                    icon.classList.remove("fa-bars");
+                    icon.classList.remove("fa");
+    
+                    icon.classList.add("fas");
+                    icon.classList.add("fa-hand-middle-finger");
+                } else {
+                    icon.classList.remove("fas");
+                    icon.classList.remove("fa-hand-middle-finger");
+    
+                    icon.classList.add("fa");
+                    icon.classList.add("fa-bars");
+                }
+    
+                for (var button of commonButtons) {
+                    button.classList.toggle("active");
+                }
+    
+            }
+        </script>
 
 </body>
 
