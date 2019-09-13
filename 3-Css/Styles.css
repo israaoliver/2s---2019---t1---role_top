@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
   box-sizing: border-box;
 }
 body{
@@ -185,34 +186,34 @@ nav ul > li:last-child {
 }
 
 .balada{
-  background-image: url(../2-Imagens/Imagens-de-salão-de=eventos/Eventos/Balada.jpg);
+  background-image: url('../2-Imagens/Eventos/Balada.jpg');
 }
 .aniversario{ 
-  background-image: url(../2-imagens/Imagens-de-salão-de=eventos/Eventos/Aniversario.jpg);
+  background-image: url('../2-Imagens/Eventos/Aniversario.jpg');
   background-position: center;
 
 }
 .anos{  
-  background-image: url(../2-imagens/Imagens-de-salão-de=eventos/Eventos/15\ Anos.jpg);
+  background-image: url('../2-Imagens/Eventos/15-Anos.jpg');
 }
 .festas{
-  background-image: url(../2-imagens/Imagens-de-salão-de=eventos/Eventos/baladas-em-montevideu-la-city-boliche-uruguai.png);  
+  background-image: url('../2-Imagens/Eventos/Festa.png');  
 }
 .cha{
-  background-image: url(../2-imagens/Imagens-de-salão-de=eventos/Eventos/Cha\ de\ bebe.jpg);  
+  background-image: url('../2-Imagens/Eventos/Cha-de-bebe.jpg');  
 
   }
 .formatura{
-  background-image: url(../2-imagens/Imagens-de-salão-de=eventos/Eventos/Formatura.jpg);  
+  background-image: url('../2-Imagens/Eventos/Formatura.jpg');  
 
   
 }
 .casamento{
-  background-image: url(../2-imagens/Imagens-de-salão-de=eventos/Eventos/Casamento.jpg);  
+  background-image: url('../2-Imagens/Eventos/Casamento.jpg');  
  
 }
 .confra{
-  background-image: url(../2-imagens/Imagens-de-salão-de=eventos/Eventos/Confraternização.jpg);
+  background-image: url('../2-Imagens/Eventos/Confraternização.jpg');
 
 }
 
