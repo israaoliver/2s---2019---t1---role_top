@@ -283,6 +283,7 @@ footer{
     }
     #bt-login{
       margin-top: -1em;
+      margin-right: -1em;
     }
     nav ul > li > a{
       padding: 1em;
@@ -291,7 +292,7 @@ footer{
 
     .icon{
       width: 103%;
-      height: 61px;
+      height: 68px;
       margin-top: -1em;
       
     }
