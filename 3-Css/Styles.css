@@ -74,7 +74,7 @@ p {
   color: #fff;
   text-shadow: -2px -2px 0 #000,
                     2px -2px 0 #000,
-                 -2px  2px 0 #000,
+                -2px  2px 0 #000,
                     2px  2px 0 #000;
   
 }
@@ -141,7 +141,10 @@ nav ul > li:last-child {
 /*=============================================
           Inicio Parte   de    Eventos
 ==============================================*/
-
+#Eventos
+{
+  margin-top: 10em;
+}
 .container-eve{
   max-width: 80em;
   height: 63em;
