@@ -7,8 +7,8 @@ body{
     height: 4fr;
     background-color: #111111;
     background-image: linear-gradient(#4e015b,#44014f,#1e0023,#000000);
-  
-  }
+
+}
 .flex{
     display: flex;
 }
@@ -31,7 +31,7 @@ h2{
     font-size: 2em;
     text-shadow: -2px -2px 0 #000,
                     2px -2px 0 #000,
-                 -2px  2px 0 #000,
+                -2px  2px 0 #000,
                     2px  2px 0 #000;    
 }
 
